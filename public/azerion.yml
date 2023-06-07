@@ -1,0 +1,130 @@
+sections:
+  - name: Repositories
+    icon: https://git-scm.com/favicon.ico
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: true
+    items:
+      - title: Strossle
+        description: 'Group ID: 5374'
+        icon: https://www.strossle.com/hubfs/favicon.png
+        url: https://gitlab.azerdev.com/strossle
+        target: newtab
+        id: 0_1288_strossle
+      - title: Improve Digital
+        description: 'Group ID: 923'
+        icon: https://marketplace.improvedigital.com/favicon.ico
+        url: https://gitlab.azerdev.com/improve-digital
+        target: newtab
+        id: 1_1288_improvedigital
+      - title: Butelka
+        description: 'Group ID: 924'
+        icon: https://console.360yield.com/favicon.png
+        url: https://gitlab.azerdev.com/improve-digital/butelka
+        target: newtab
+        id: 2_1288_butelka
+      - title: Inskin
+        description: GitHub
+        icon: >-
+          https://static.wixstatic.com/media/278fba_7d0426586eec49278ed73bfeb61fc4d7~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/278fba_7d0426586eec49278ed73bfeb61fc4d7~mv2.png
+        url: https://github.com/orgs/inskinmedia/repositories
+        target: newtab
+        id: 3_1288_inskin
+  - name: Improve Digital
+    icon: https://marketplace.improvedigital.com/favicon.ico
+    displayData:
+      collapsed: false
+      hideForGuests: true
+      sortBy: default
+      rows: 1
+      cols: 1
+    items:
+      - title: Marketplace
+        description: Improve Digital Marketplace
+        icon: https://marketplace.improvedigital.com/favicon.ico
+        url: https://marketplace.improvedigital.com/
+        target: newtab
+        statusCheckUrl: https://api.360yield.com/manage/health
+        statusCheck: true
+        id: 0_1472_marketplace
+      - title: Marketplace [STAGING]
+        description: Acceptance
+        icon: https://deals.360yielddev.com/favicon.ico
+        url: https://deals.360yielddev.com/
+        target: newtab
+        statusCheckUrl: https://api.360yielddev.com/manage/health
+        statusCheck: true
+        id: 1_1472_marketplacestaging
+  - name: ETL
+    icon: https://airflow.apache.org/favicons/favicon-32x32.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: true
+    items:
+      - title: 'Butelka '
+        description: Butelka Airflow
+        icon: https://airflow-butelka.inskinmedia.com/static/pin_32.png
+        url: https://airflow-butelka.inskinmedia.com/
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: https://airflow-butelka.inskinmedia.com/health
+        id: 0_229_butelka
+      - title: Inskin
+        description: Airflow
+        icon: https://airflow.inskinmedia.com/static/pin_32.png
+        url: https://airflow.inskinmedia.com/
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: https://airflow.inskinmedia.com/health
+        id: 1_229_inskin
+      - title: Inskin [STAGING]
+        description: Sandbox and legacy
+        icon: https://airflow.staging.inskinmedia.com/static/pin_32.png
+        url: https://airflow.staging.inskinmedia.com/
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: https://airflow.staging.inskinmedia.com/health
+        id: 2_229_inskinstaging
+appConfig:
+  theme: high-contrast-light
+  layout: auto
+  iconSize: large
+  language: en
+  statusCheckInterval: 300
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: true
+    hideSettings: true
+    hideFooter: false
+  showSplashScreen: false
+  preventWriteToDisk: true
+  preventLocalSave: false
+  disableConfiguration: false
+  disableConfigurationForNonAdmin: true
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
